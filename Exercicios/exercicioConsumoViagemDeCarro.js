@@ -8,14 +8,11 @@ Você terá 3 variáveis
 
 */
 
-let precoGasolina = 6.01;
-let precoAlcool = 4.01;
-const kmPorLitro = 11;
+let precoCombustivel = 6.01;
+const kmPorLitro = 14;
 const distanciaKm = 132;
 
 const litrosCosumidos = distanciaKm / kmPorLitro;
-const valorGastoEmGasolina = litrosCosumidos * precoGasolina;
-const valorGastoEmAlcool = litrosCosumidos * precoAlcool;
+const valorCombustivel = litrosCosumidos * precoCombustivel;
 
-console.log(`Em gasolina a viagem vai custar ${valorGastoEmGasolina.toFixed(2)} e no alcool vai custar ${valorGastoEmAlcool.toFixed(2)}.`);
-
+console.log(`A viagem vai custar ${valorCombustive.toFixed(2)}.`);
